@@ -55,3 +55,4 @@ And I can see my Credit Score
 #When I click on SIGNUP button
 #Then the page navigates to Create Password page
 	
+#Appium Mobile Tests

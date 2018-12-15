@@ -80,7 +80,9 @@ C:\GreenLemonCompany\CustomerVueSeleniumTest\TestApplication.UiTests\obj\Debug\T
 C:\GreenLemonCompany\CustomerVueSeleniumTest\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csproj.CopyComplete
 C:\GreenLemonCompany\CustomerVueSeleniumTest\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.dll
 C:\GreenLemonCompany\CustomerVueSeleniumTest\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.pdb
-C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\chromedriver.exe
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.dll
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.Interfaces.dll
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.Utils.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\IEDriverServer.exe
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\SpecFlowPlusRunner\FSharp.Core.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\SpecFlowPlusRunner\Gherkin.dll
@@ -118,15 +120,14 @@ C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\SpecFlowPlusRunner\TechTalk.SpecRun.VisualStudio.TestAdapter.dll.config
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll.config
-C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.Executor.dll
-C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.Interfaces.dll
-C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.Utils.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Default.srprofile
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Report\ReportTemplate.cshtml
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TestApplication.UiTests.dll.config
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TestApplication.UiTests.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TestApplication.UiTests.pdb
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\appium-dotnet-driver.dll
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Castle.Core.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\FluentAssertions.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Newtonsoft.Json.dll
@@ -148,6 +149,8 @@ C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Microsoft.Web.Publishing.Tasks.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\RestSharp.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\appium-dotnet-driver.xml
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Castle.Core.xml
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\FluentAssertions.pdb
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\FluentAssertions.xml
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\Newtonsoft.Json.pdb
@@ -158,8 +161,8 @@ C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.dll.config
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\WebDriver.xml
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\WebDriver.Support.xml
-C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csprojAssemblyReference.cache
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csproj.CoreCompileInputs.cache
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csproj.CopyComplete
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.pdb
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csprojAssemblyReference.cache

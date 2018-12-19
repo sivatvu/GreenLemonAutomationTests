@@ -17,13 +17,13 @@ namespace TestApplication.UiTests.Pages
         [FindsBy(How = How.XPath, Using = "//div[@class='Heading1' and text()='Credit Report authentication']")]
         protected IWebElement CRATitle { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//input[@type='radio' and @value='1'][1]")]
+        [FindsBy(How = How.XPath, Using = "//input[@tabindex='3']")]
         protected IWebElement Question1 { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//input[@type='radio' and @value='1'][2]")]
+        [FindsBy(How = How.XPath, Using = "//input[@tabindex='8']")]
         protected IWebElement Question2 { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//input[@type='radio' and @value='1'][3]")]
+        [FindsBy(How = How.XPath, Using = "//input[@tabindex='14']")]
         protected IWebElement Question3 { get; set; }
 
         [FindsBy(How = How.XPath, Using = "//input[@type='submit' and @value='Enter']")]

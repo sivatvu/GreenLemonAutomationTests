@@ -12,8 +12,8 @@ namespace TestApplication.UiTests.Pages
     public class LoginPage
     {
 
-        [FindsBy(How = How.Id, Using = "ctl00_cp_lblVersionNo")]
-        protected IWebElement VersionNumber { get; set; }
+        [FindsBy(How = How.XPath, Using = "//div[@class='Heading1' and text()='Create Password']")]
+        protected IWebElement CreateAccountPage { get; set; }
 
         [FindsBy(How = How.XPath, Using = "//a[contains(text(),'+44 3333 443 654')]")]
         protected IWebElement PhoneNumber { get; set; }
@@ -48,26 +48,13 @@ namespace TestApplication.UiTests.Pages
         }
 
 
-        public String VersionNumberText()
-        {
-            return VersionNumber.Text.ToLower();
-        }
+       
+      
 
-        public String PhoneNumberText()
-        {
-            return PhoneNumber.Text.ToLower();
-        }
-
-        public Boolean VersionNoDisplays()
+        public Boolean CreateAccountDisplays()
         {
 
-            return VersionNumber.Displayed;
-        }
-
-        public Boolean PhoneNoDisplays()
-        {
-
-            return PhoneNumber.Displayed;
+            return CreateAccountPage.Displayed;
         }
 
         public void LoginAs(String user, String passwd)
@@ -83,11 +70,11 @@ namespace TestApplication.UiTests.Pages
             Username.SendKeys(ConfigurationManager.AppSettings["Username"]);
             Password.SendKeys(ConfigurationManager.AppSettings["Password"]);
             ReTypePassword.SendKeys(ConfigurationManager.AppSettings["Re-Type Password"]);
-            
-
-
-
+          
         }
+
+       
+
 
         public void EnterLogin()
         {

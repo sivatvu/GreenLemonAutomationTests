@@ -73,20 +73,34 @@ namespace TestApplication.UiTests.Features
 #line 7
 #line 9
  testRunner.Given("I navigate to the test site in my Mobile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 10
+ testRunner.When("I enter Username, Password & Re-Type Password in App", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+ testRunner.And("I click on Enter button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Enter your Personal Details", new string[] {
-                "AppiumTests"}, SourceLine=12)]
+                "AppiumTests"}, SourceLine=14)]
         public virtual void EnterYourPersonalDetails()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Enter your Personal Details", null, new string[] {
                         "AppiumTests"});
-#line 13
+#line 15
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 7
 this.FeatureBackground();
+#line 18
+testRunner.When("I enter the FirstName", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 19
+testRunner.And("I enter the Sur Name", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 20
+testRunner.And("I enter the users Date of Birth", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 21
+testRunner.And("I enter my Telephone No", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 22
+testRunner.And("I select Employment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

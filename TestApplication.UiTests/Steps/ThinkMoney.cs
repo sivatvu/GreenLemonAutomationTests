@@ -13,6 +13,8 @@ using System.Text;
 using TestApplication.UiTests.Utils;
 using TestApplication.UiTests.Pages;
 using System.Linq;
+using TechTalk.SpecFlow.Assist;
+using static TestApplication.UiTests.Pages.PersonalDetails;
 
 namespace CBT_Example_2
 {
@@ -38,35 +40,63 @@ namespace CBT_Example_2
             LoginPage lp = new LoginPage(driver);
             lp.Login();
         }
-                       
 
-        [When(@"I enter the First Name")]
-        public void WhenIEnterTheFirstName()
+        //[When(@"I enter the following values into the Personal Details page")]
+        //public void WhenIEnterTheFollowingValuesIntoThePersonalDetailsPage(Table table)
+        //{
+           
+        //   PersonalDetails accounts = table.CreateInstance<PersonalDetails>();
+
+        //    accounts.FirstN("FirstName");
+        //    accounts.SecondN("SurName");
+        //    accounts.Tele("TelephoneNumber");
+        //    accounts.GrossAnnual("DateOfBirth");
+        //    accounts.DateOB("GrossAnnualIncome");
+        //}
+
+
+        
+        [When(@"I enter the following values into the Personal Details page ""(.*)"", ""(.*)"", ""(.*)"", ""(.*)"" and ""(.*)""")]
+        public void WhenIEnterTheFollowingValuesIntoThePersonalDetailsPageAnd(string FirstName, string SurName, string TelephoneNumber, string GrossAnnualIncome, string DateOfBirth)
         {
             PersonalDetails pd = new PersonalDetails(driver);
-            pd.FirstN();
+            pd.FirstN(FirstName);
+            pd.SecondN(SurName);
+            pd.Tele(TelephoneNumber);
+            pd.GrossAnnual(GrossAnnualIncome);
+            pd.DateOB(DateOfBirth);
+
         }
 
-        [When(@"I enter the Surname")]
-        public void WhenIEnterTheSurname()
-        {
-            PersonalDetails pd = new PersonalDetails(driver);
-            pd.SecondN();
-        }
 
-        [When(@"I enter my Date of Birth")]
-        public void WhenIEnterMyDateOfBirth()
-        {
-            PersonalDetails pd = new PersonalDetails(driver);
-            pd.DateOB();
-        }
 
-        [When(@"I enter my Telephone Number")]
-        public void WhenIEnterMyTelephoneNumber()
-        {
-            PersonalDetails pd = new PersonalDetails(driver);
-            pd.Tele();
-        }
+        //[When(@"I enter the First Name")]
+        //public void WhenIEnterTheFirstName()
+        //{
+        //    PersonalDetails pd = new PersonalDetails(driver);
+        //    pd.FirstN();
+        //}
+
+        //[When(@"I enter the Surname")]
+        //public void WhenIEnterTheSurname()
+        //{
+        //    PersonalDetails pd = new PersonalDetails(driver);
+        //    pd.SecondN();
+        //}
+
+        //[When(@"I enter my Date of Birth")]
+        //public void WhenIEnterMyDateOfBirth()
+        //{
+        //    PersonalDetails pd = new PersonalDetails(driver);
+        //    pd.DateOB();
+        //}
+
+        //[When(@"I enter my Telephone Number")]
+        //public void WhenIEnterMyTelephoneNumber()
+        //{
+        //    PersonalDetails pd = new PersonalDetails(driver);
+        //    pd.Tele();
+        //}
 
         [When(@"I have agreed with the Terms and Conditions")]
         public void WhenIHaveAgreedWithTheTermsAndConditions()
@@ -131,12 +161,12 @@ namespace CBT_Example_2
             pd.EnterPD();
         }
 
-        [When(@"I have entered my Gross annual Income")]
-        public void WhenIHaveEnteredMyGrossAnnualIncome()
-        {
-            PersonalDetails pd = new PersonalDetails(driver);
-            pd.GrossAnnual();
-        }
+        //[When(@"I have entered my Gross annual Income")]
+        //public void WhenIHaveEnteredMyGrossAnnualIncome()
+        //{
+        //    PersonalDetails pd = new PersonalDetails(driver);
+        //    pd.GrossAnnual();
+        //}
 
         [When(@"I enter my address")]
         public void WhenIEnterMyAddress()
@@ -166,9 +196,17 @@ namespace CBT_Example_2
             cra.SubmittheAnswers();
         }
 
-#endregion
+        #endregion
 
         #region then
+
+
+        [Then(@"I am on Create Account page")]
+        public void ThenIAmOnCreateAccountPage()
+        {
+            LoginPage lp = new LoginPage(driver);
+            lp.CreateAccountDisplays();
+        }
 
 
         [Then(@"I can verify the credit score")]
@@ -200,8 +238,23 @@ namespace CBT_Example_2
             ahp.CreditS();
         }
 
+        [Then(@"I can enter my personal details")]
+        public void ThenICanEnterMyPersonalDetails()
+        {
+            PersonalDetails pd = new PersonalDetails(driver);
+            pd.PersonalDetailDisplays();
+        }
 
-#endregion
+
+        [Then(@"I can successfully enter my personal details")]
+        public void ThenICanSuccessfullyEnterMyPersonalDetails()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+
+
+        #endregion
 
 
 

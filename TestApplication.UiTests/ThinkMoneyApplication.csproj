@@ -126,6 +126,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ThinkMoneyMobileApp.feature</DependentUpon>
     </Compile>
+    <Compile Include="Mobile Pages\AppLoginPage.cs" />
     <Compile Include="Pages\AccountHomePage.cs" />
     <Compile Include="Pages\CreditReportAuthentication.cs" />
     <Compile Include="Pages\PersonalDetails.cs" />

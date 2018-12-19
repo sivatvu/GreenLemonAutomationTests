@@ -20,7 +20,7 @@ namespace TestApplication.UiTests.Pages
         protected IWebElement FN { get; set; }
 
         [FindsBy(How = How.XPath, Using = "//input[@placeholder='Surname']")]
-        protected IWebElement SN { get; set; }
+        protected IWebElement SN{ get; set; }
 
         [FindsBy(How = How.XPath, Using = "//input[@placeholder='Date of Birth']")]
         protected IWebElement DOB { get; set; }
@@ -55,6 +55,9 @@ namespace TestApplication.UiTests.Pages
         [FindsBy(How = How.XPath, Using = "//input[@placeholder='Gross anual income (£)']")]
         protected IWebElement Gross { get; set; }
 
+        [FindsBy(How = How.XPath, Using = "//div[contains(text(),'Enter your personal details')]")]
+        protected IWebElement PersonalDetailsPage { get; set; }
+
 
 
 
@@ -73,34 +76,34 @@ namespace TestApplication.UiTests.Pages
 
         }
 
-        public void FirstN()
+        public void FirstN(string FirstName)
         {
-            FN.SendKeys(ConfigurationManager.AppSettings["Firstname"]);
-            
+            FN.SendKeys(FirstName);
+
 
 
         }
-        public void SecondN()
+        public void SecondN(string SurName)
         {
-            
-            SN.SendKeys(ConfigurationManager.AppSettings["Surname"]);
-            
-            
+
+            SN.SendKeys(SurName);
+
+
 
 
         }
-        public void DateOB()
+        public void DateOB(string DateOfBirth)
         {
-           
-            DOB.SendKeys(ConfigurationManager.AppSettings["DOB"]);
-            
+
+            DOB.SendKeys(DateOfBirth);
+
 
 
         }
-        public void Tele()
+        public void Tele(string TelephoneNumber)
         {
-          
-            TN.SendKeys(ConfigurationManager.AppSettings["Telephonenumber"]);
+
+            TN.SendKeys(TelephoneNumber);
 
 
         }
@@ -111,10 +114,10 @@ namespace TestApplication.UiTests.Pages
             Agreed.Click();
         }
 
-        public void GrossAnnual()
+        public void GrossAnnual(string GrossAnnualIncome)
         {
 
-            Gross.SendKeys(ConfigurationManager.AppSettings["GAI"]);
+            Gross.SendKeys(GrossAnnualIncome);
         }
 
 
@@ -145,5 +148,21 @@ namespace TestApplication.UiTests.Pages
             MonthMovedIn.SendKeys(ConfigurationManager.AppSettings["Month"]);
             YearMovedin.SendKeys(ConfigurationManager.AppSettings["Year"]);
         }
+
+        public Boolean PersonalDetailDisplays()
+        {
+
+            return PersonalDetailsPage.Displayed;
+        }
+
+        //public class Account
+        //{
+        //    public string FirstName { get; set; }
+        //    public string FirstName { get; set; }
+        //    public string FirstName { get; set; }
+        //    public string FirstName { get; set; }
+        //    public string FirstName { get; set; }
+
+        //}
     }
 }

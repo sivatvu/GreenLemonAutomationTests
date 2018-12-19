@@ -38,8 +38,8 @@ namespace TestApplication.UiTests.Pages
         [FindsBy(How = How.CssSelector, Using = "//div[contains(text(),'Mr.')]/following::input[5]")]
         protected IWebElement Gross { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//div[@class='Heading1']/following::input[1]")]
-        protected IWebElement Yes { get; set; }
+        [FindsBy(How = How.XPath, Using = "//*[contains(text(), 'Want to set up your')]")]
+        protected IWebElement CreditReportpage { get; set; }
 
         [FindsBy(How = How.XPath, Using = "//div[@class='Login__Form']/*[1]")]
         protected IWebElement UNC { get; set; }
@@ -87,11 +87,16 @@ namespace TestApplication.UiTests.Pages
 
         }
 
-        public void SelectYestoSetup()
-        {
-            Yes.Click();
+        //public void SelectYestoSetup()
+        //{
+        //    Yes.Click();
            
 
+        //}
+
+        public Boolean CreditReportpageDisplays()
+        {
+            return CreditReportpage.Displayed;
         }
 
         public void LoginC()

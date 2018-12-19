@@ -17,8 +17,11 @@ namespace TestApplication.UiTests.Utils
         //public string username = "siva.arunagiri@greenlemoncompany.net";
         //public string authkey = "u9773ac8866b6fba";
 
-        public string username = "siva454";
-        public string authkey = "b1az5z4YK9SKiMexsxBU";
+        //public string username = "siva454";
+        //public string authkey = "b1az5z4YK9SKiMexsxBU";
+
+        public string username = "nickhines2";
+        public string authkey = "yGGPyxUSGcB5MzsVoFqb";
 
         DesiredCapabilities caps = new DesiredCapabilities();
 

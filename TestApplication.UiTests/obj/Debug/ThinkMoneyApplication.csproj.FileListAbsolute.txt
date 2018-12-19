@@ -161,8 +161,8 @@ C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\TechTalk.SpecRun.Framework.dll.config
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\WebDriver.xml
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\bin\Debug\WebDriver.Support.xml
+C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csprojAssemblyReference.cache
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csproj.CoreCompileInputs.cache
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csproj.CopyComplete
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.pdb
-C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csprojAssemblyReference.cache

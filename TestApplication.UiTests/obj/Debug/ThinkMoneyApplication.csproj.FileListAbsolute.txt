@@ -166,3 +166,5 @@ C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csproj.CopyComplete
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.dll
 C:\GreenLemonCompany\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\TestApplication.UiTests.pdb
+C:\Users\user\Source\Repos\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\GreenLemonAutomationTests\TestApplication.UiTests\obj\Debug\ThinkMoneyApplication.csproj.CoreCompileInputs.cache

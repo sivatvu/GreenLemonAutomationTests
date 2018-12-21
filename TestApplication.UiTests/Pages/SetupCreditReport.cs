@@ -41,17 +41,20 @@ namespace TestApplication.UiTests.Pages
         [FindsBy(How = How.XPath, Using = "//*[contains(text(), 'Want to set up your')]")]
         protected IWebElement CreditReportpage { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//div[@class='Login__Form']/*[1]")]
+        [FindsBy(How = How.XPath, Using = "//input[@tabindex='1']")]
         protected IWebElement UNC { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//div[@class='Login__Form']/*[2]")]
+        [FindsBy(How = How.XPath, Using = "//input[@tabindex='2']")]
         protected IWebElement PAC { get; set; }
 
-        [FindsBy(How = How.XPath, Using = "//div[@class='Login__Form']/*[3]/*[1]")]
+        [FindsBy(How = How.XPath, Using = "//input[@tabindex='3']")]
         protected IWebElement LOGC { get; set; }
 
         [FindsBy(How = How.XPath, Using = "//div[contains(text(),'Homepage')]")]
         protected IWebElement CScore { get; set; }
+
+        [FindsBy(How = How.XPath, Using = "//input[@tabindex='1']")]
+        protected IWebElement Yes { get; set; }
 
 
 
@@ -87,12 +90,12 @@ namespace TestApplication.UiTests.Pages
 
         }
 
-        //public void SelectYestoSetup()
-        //{
-        //    Yes.Click();
-           
+        public void SelectYestoSetup()
+        {
+            Yes.Click();
 
-        //}
+
+        }
 
         public Boolean CreditReportpageDisplays()
         {

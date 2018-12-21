@@ -23,11 +23,12 @@ Scenario Outline: Enter your Personal Details and Verify the Credit Score
     And I have agreed with the Terms and Conditions
     And I Click on Enter on Personal Details Page
     Then I can successfully enter my personal details
-#Credit Report
+#Credit Report Authentication
     When I click on YES to set up the credit report
     Then I can verify the Credit Report authentication
     When I select the correct answers for the authentication questions 
     And I submit the answers by pressing the Enter button
+	And I login as the test admin
     Then I am on Credit report homepage 
     And I can see my Credit Score 
 

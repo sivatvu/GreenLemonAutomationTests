@@ -92,6 +92,7 @@ namespace TestApplication.UiTests.Steps
         public void WhenISelectEmployment()
         {
             AppLoginPage Aplp = new AppLoginPage(driver);
+            driver.Quit();
           
         }
 

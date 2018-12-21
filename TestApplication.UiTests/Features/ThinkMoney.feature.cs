@@ -125,8 +125,10 @@ this.FeatureBackground();
 #line 30
     testRunner.And("I submit the answers by pressing the Enter button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 31
-    testRunner.Then("I am on Credit report homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.And("I login as the test admin", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 32
+    testRunner.Then("I am on Credit report homepage", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 33
     testRunner.And("I can see my Credit Score", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
@@ -134,7 +136,7 @@ this.FeatureBackground();
         
         [TechTalk.SpecRun.ScenarioAttribute("Enter your Personal Details and Verify the Credit Score, GreenLemon", new string[] {
                 "Tests",
-                "PersonalDetails"}, SourceLine=36)]
+                "PersonalDetails"}, SourceLine=37)]
         public virtual void EnterYourPersonalDetailsAndVerifyTheCreditScore_GreenLemon()
         {
 #line 16

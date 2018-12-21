@@ -249,7 +249,8 @@ namespace CBT_Example_2
         [Then(@"I can successfully enter my personal details")]
         public void ThenICanSuccessfullyEnterMyPersonalDetails()
         {
-            ScenarioContext.Current.Pending();
+            SetupCreditReport scr = new SetupCreditReport(driver);
+            scr.CreditReportpageDisplays();
         }
 
 

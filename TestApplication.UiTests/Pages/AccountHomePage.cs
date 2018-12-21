@@ -45,7 +45,7 @@ namespace TestApplication.UiTests.Pages
 
         public void CredithomePage()
         {
-            IWebElement element = _driver.FindElement(By.XPath("//*[contains(text(),'Homepage')]']"));
+            IWebElement element = _driver.FindElement(By.XPath("//*[contains(text(),'Homepage')]"));
             Assert.IsTrue(element.Displayed);
         }
 
@@ -53,6 +53,7 @@ namespace TestApplication.UiTests.Pages
         {
             IWebElement element = _driver.FindElement(By.XPath("//*[contains(text(),'259')]"));
             Assert.IsTrue(element.Displayed);
+            _driver.Quit();
         }
 
 
